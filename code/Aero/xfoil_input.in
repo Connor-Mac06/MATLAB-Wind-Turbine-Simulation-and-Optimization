@@ -1,0 +1,15 @@
+LOAD airfoil.dat
+PPAR
+
+OPER
+M 0.087
+VPAR
+N 5.0
+
+VISC 112202
+ITER 300
+PACC
+polar.dat
+
+ASEQ -10.00 25.00 0.25
+QUIT
